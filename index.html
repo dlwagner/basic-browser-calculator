@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+	This is a basic browser calculator. 
+	TODO: add CSS file to make calculator more appealing.
+--> 
+<html>
+ <head>
+ <title>Browser Calculator</title>
+ </head>
+ <body> 
+ 	<form>
+ 		<input type="number" id="num1" autofocus="autofocus" placeholder="First Number" style="height: 20px">
+ 		<select style="height: 25px">
+ 			<option value="add">Plus</option>
+ 			<option value="minus">Minus</option>
+ 			<option value="multiply">Multiplied by</option>
+ 			<option value="divide">Divided by</option>
+ 		</select>
+ 		<input type="number" id="num2" placeholder="Second Number" style="height: 20px">
+ 		<button type="button" onclick="Calculator();" style="">Submit</button>
+ 		<div id="answer"></div>
+ 	</form>
+ 	<script src="javascript.js"></script>
+ </body>
+</html>
